@@ -3,7 +3,7 @@ package net.msrandom.stub
 import org.jetbrains.kotlin.name.ClassId
 import org.jetbrains.kotlin.name.FqName
 
-const val PLUGIN_ID = "net.msrandom.stub"
+public const val PLUGIN_ID = "net.msrandom.stub"
 
 val STUB: ClassId = ClassId.topLevel(FqName("net.msrandom.stub.Stub"))
 
